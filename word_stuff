@@ -1,0 +1,5 @@
+f = open("input.txt","r") #åpner fila vi skal telle vokaler i teksten med
+
+print(f.read())
+
+f.close() #alltid lukk fila etter bruk 
